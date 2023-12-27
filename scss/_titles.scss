@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4 {
+    color: $gray-500;
+    font-family: "Poppins", sans-serif;
+    font-size: 6.4rem;
+}
+h1 {
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 112%;
+    letter-spacing: -1px;
+    @include responsive(1050px) {
+        font-size: 5.2rem;
+    }
+    @include responsive(991px) {
+        font-size: 4.5rem;
+    }
+}
+h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 112%;
+    letter-spacing: -1px;
+}
+h3 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}
+h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 112%;
+    letter-spacing: -0.5px;
+}
