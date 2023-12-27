@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/svg" href="./img/icon-neon.svg">
+        <link rel="icon" type="image/svg" href="<?php echo get_template_directory_uri()?>/img/icon-neon.svg">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -18,14 +18,14 @@
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="css/main.min.css" />
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/css/main.min.css" />
         <title>Projeto Neon - Jackson</title>
     </head>
     <body>
         <header>
             <div class="container">
                 <a href="/" class="logo">
-                    <img src="img/logo.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri()?>/img/logo.svg" alt="" />
                 </a>
                 <nav>
                     <ul>
@@ -40,7 +40,7 @@
                     </button>
 
                     <button class="btn-mobile">
-                        <img src="img/btn-mobile.svg" alt="" />
+                        <img src="<?php echo get_template_directory_uri()?>/img/btn-mobile.svg" alt="" />
                     </button>
                 </nav>
             </div>
@@ -57,7 +57,7 @@
                     <ul>
                         <li>
                             <div class="icon">
-                                <img src="img/icon-anuidade.svg" />
+                                <img src="<?php echo get_template_directory_uri()?>/img/icon-conta-digital.svg"/>
                             </div>
                             <span
                                 >Cartão sem<br />
@@ -66,7 +66,7 @@
                         </li>
                         <li>
                             <div class="icon">
-                                <img src="img/icon-conta-digital.svg" />
+                                <img src="<?php echo get_template_directory_uri()?>/img/icon-conta-digital.svg" />
                             </div>
                             <span
                                 >Conta digital<br />
@@ -75,7 +75,7 @@
                         </li>
                         <li>
                             <div class="icon">
-                                <img src="img/icon-dinheiro.svg" />
+                                <img src="<?php echo get_template_directory_uri()?>/img/icon-dinheiro.svg" />
                             </div>
                             <span
                                 >Seu dinheiro<br />
@@ -87,9 +87,9 @@
                 <div class="area-image">
                     <h2 data-aos="fade-left">Banco 100% digital</h2>
                     <div class="imagem" data-aos="zoom-in">
-                        <img src="img/card-neon-frnt.png" class="card-front" />
-                        <img src="img/card-neon-back.png" class="card-back" />
-                        <img src="img/circle-cards-neon.svg" class="circle" />
+                        <img src="<?php echo get_template_directory_uri()?>/img/card-neon-frnt.png" class="card-front" />
+                        <img src="<?php echo get_template_directory_uri()?>/img/card-neon-back.png" class="card-back" />
+                        <img src="<?php echo get_template_directory_uri()?>/img/circle-cards-neon.svg" class="circle" />
                     </div>
                 </div>
             </div>
@@ -99,12 +99,12 @@
             <div class="container">
                 <div class="left" >
                     <div class="ilustra-mockup">
-                        <img src="img/circle-mockup.svg" class="circle" data-aos="fade-left"/>
-                        <img src="img/mockup.svg" class="mockup"  data-aos="flip-right"/>
+                        <img src="<?php echo get_template_directory_uri()?>/img/circle-mockup.svg" class="circle" data-aos="fade-left"/>
+                        <img src="<?php echo get_template_directory_uri()?>/img/mockup.svg" class="mockup"  data-aos="flip-right"/>
                     </div>
                     <div class="text" data-aos="fade-up">
                         <div class="icon">
-                            <img src="img/icon-neon.svg" alt="" />
+                            <img src="<?php echo get_template_directory_uri()?>/img/icon-neon.svg" alt="" />
                         </div>
                         <div class="info-text">
                             <h3>Baixe nosso app</h3>
@@ -115,12 +115,12 @@
                             <ul>
                                 <li>
                                     <a href="" target="_blank">
-                                        <img src="img/apple-store.svg" alt="" />
+                                        <img src="<?php echo get_template_directory_uri()?>/img/apple-store.svg" alt="" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="" target="_blank">
-                                        <img src="img/google-play.svg" alt="" />
+                                        <img src="<?php echo get_template_directory_uri()?>/img/google-play.svg" alt="" />
                                     </a>
                                 </li>
                             </ul>
@@ -147,7 +147,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="img/arrow-right.svg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri()?>/img/arrow-right.svg" alt="" />
                                 </div>
                             </li>
                             <li>
@@ -165,7 +165,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="img/arrow-right.svg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri()?>/img/arrow-right.svg" alt="" />
                                 </div>
                             </li>
                             <li>
@@ -183,7 +183,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <img src="img/arrow-right.svg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri()?>/img/arrow-right.svg" alt="" />
                                 </div>
                             </li>
                         </ul>
@@ -205,7 +205,7 @@
                                 <button class="btn-primary">SOU ME</button>
                             </div>
                         </div>
-                        <img src="img/card-front-pj.svg" class="image" />
+                        <img src="<?php echo get_template_directory_uri()?>/img/card-front-pj.svg" class="image" />
                     </div>
                 </div>
             </div>
@@ -227,7 +227,7 @@
                             <div class="card-depoimento">
                                 <div class="user">
                                     <strong>@marciogurka</strong>
-                                    <img src="img/icon-twiiter.svg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri()?>/img/icon-twiiter.svg" alt="" />
                                 </div>
                                 <p>
                                     Valeu @banconenon! Linda embalagem e o
@@ -240,7 +240,7 @@
                             <div class="card-depoimento">
                                 <div class="user">
                                     <strong>@kleriene18</strong>
-                                    <img src="img/icon-twiiter.svg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri()?>/img/icon-twiiter.svg" alt="" />
                                 </div>
                                 <p>
                                     Eu uso o Neon pra render o pouquinho que eu
@@ -253,7 +253,7 @@
                             <div class="card-depoimento">
                                 <div class="user">
                                     <strong>@mzltweet</strong>
-                                    <img src="img/icon-twiiter.svg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri()?>/img/icon-twiiter.svg" alt="" />
                                 </div>
                                 <p>
                                     Só por ter um cartão virtual com bloqueio
@@ -266,7 +266,7 @@
                             <div class="card-depoimento">
                                 <div class="user">
                                     <strong>@marciogurka</strong>
-                                    <img src="img/icon-twiiter.svg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri()?>/img/icon-twiiter.svg" alt="" />
                                 </div>
                                 <p>
                                     Valeu @banconenon! Linda embalagem e o
@@ -279,7 +279,7 @@
                             <div class="card-depoimento">
                                 <div class="user">
                                     <strong>@kleriene18</strong>
-                                    <img src="img/icon-twiiter.svg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri()?>/img/icon-twiiter.svg" alt="" />
                                 </div>
                                 <p>
                                     Eu uso o Neon pra render o pouquinho que eu
@@ -292,7 +292,7 @@
                             <div class="card-depoimento">
                                 <div class="user">
                                     <strong>@mzltweet</strong>
-                                    <img src="img/icon-twiiter.svg" alt="" />
+                                    <img src="<?php echo get_template_directory_uri()?>/img/icon-twiiter.svg" alt="" />
                                 </div>
                                 <p>
                                     Só por ter um cartão virtual com bloqueio
@@ -331,7 +331,7 @@
                         </li>
                         <li>
                             <div class="icon">
-                                <img src="img/icon-taxa-zero.svg" alt="" />
+                                <img src="<?php echo get_template_directory_uri()?>/img/icon-taxa-zero.svg" alt="" />
                             </div>
                             <div class="info">
                                 <h4>Zero mensalidade e anuidade</h4>
@@ -343,7 +343,7 @@
                         </li>
                         <li>
                             <div class="icon">
-                                <img src="img/icon-poupanca.svg" alt="" />
+                                <img src="<?php echo get_template_directory_uri()?>/img/icon-poupanca.svg" alt="" />
                             </div>
                             <div class="info">
                                 <h4>
@@ -360,9 +360,9 @@
                     <button class="btn-primary">Abra sua conta digital</button>
                 </div>
                 <div class="image">
-                    <img src="img/mockup-01.svg" data-aos="fade-up" class="mockup-01" />
-                    <img src="img/mockup-02.png" data-aos="fade-down" class="mockup-02" />
-                    <img src="img/circle-conta-digital.svg" data-aos="zoom-in" class="circle" />
+                    <img src="<?php echo get_template_directory_uri()?>/img/mockup-01.svg" data-aos="fade-up" class="mockup-01" />
+                    <img src="<?php echo get_template_directory_uri()?>/img/mockup-02.png" data-aos="fade-down" class="mockup-02" />
+                    <img src="<?php echo get_template_directory_uri()?>/img/circle-conta-digital.svg" data-aos="zoom-in" class="circle" />
                 </div>
             </div>
         </section>
@@ -370,13 +370,13 @@
         <footer>
             <div class="container">
                 <div class="top">
-                    <img src="img/logo.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri()?>/img/logo.svg" alt="" />
                     <div class="share">
                         <span>Acompanhe nas redes</span>
                         <ul>
                             <li>
                                 <a href="/"
-                                    ><img src="img/youtube.svg" alt="youtube" />
+                                    ><img src="<?php echo get_template_directory_uri()?>/img/youtube.svg" alt="youtube" />
                                 </a>
                             </li>
                             <li>
@@ -469,14 +469,14 @@
 
                     <div class="btns">
                         <button>
-                            <img src="img/envelope.svg" alt="envelope" />
+                            <img src="<?php echo get_template_directory_uri()?>/img/envelope.svg" alt="envelope" />
                             <div class="info">
                                 <strong>Atendimento</strong>
                                 <span>oi@neon.com.br (24 horas)</span>
                             </div>
                         </button>
                         <button>
-                            <img src="img/chat.svg" alt="chat" />
+                            <img src="<?php echo get_template_directory_uri()?>/img/chat.svg" alt="chat" />
                             <div class="info">
                                 <strong>Imprensa:</strong>
                                 <span>imprensa@neon.com.b</span>
