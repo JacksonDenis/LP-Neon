@@ -14,8 +14,63 @@ header {
         @include flex(row, center, space-between)
     }
     nav {
+        position: relative;
         display: flex;
         align-items: center;
+        .dropdown {
+            position: absolute;
+            top: 4.9rem;
+            left: -13rem;
+            width: 100%;
+            max-width: 37.3rem ;
+            background: $gray-100;
+            border-radius: 6px;
+            padding: 4rem;
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(2rem);
+            transition: all .3s;
+            &.active {
+                transform: translateY(0);
+                opacity: 1;
+                pointer-events: all;
+                z-index: 99;
+            }
+            &::after {
+                content: "";
+                width: 29.3rem;
+                height: 0.5rem;
+                background: $yellow;
+                border-radius: 1.2rem 1.2rem 0 0;
+                position: absolute;
+                bottom: 0;
+            }
+            .item {
+                &:not(:last-child) {
+                    margin-bottom: 2.8rem;
+                }
+                &:hover {
+                    strong {
+                        color: $blue;
+                    }
+                }
+                strong {
+                    cursor: pointer;
+                    font-weight: 600;
+                    font-size: 1.6rem;
+                    line-height: 1.9rem;
+                    display: block;
+                    margin-bottom: 0.4rem;
+                    color: $gray-500;
+                    transition: all .3s ease-in;
+                }
+                p {
+                    font-size: 1.4rem;
+                    line-height: 150%;
+                    color: $gray-300;
+                }
+            }
+        }
         ul {
             display: flex;
             align-items: center;

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/svg" href="./img/icon-neon.svg">
+        <link rel="icon" type="image/svg" href="./img/icon-neon.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -28,8 +28,30 @@
                     <img src="img/logo.svg" alt="" />
                 </a>
                 <nav>
+                    <div class="dropdown ">
+                        <div class="item">
+                            <strong>Cartão de crédito</strong>
+                            <p>Cartão de crédito sem anuidade</p>
+                        </div>
+                        <div class="item">
+                            <strong>Cartão pré-pago</strong>
+                            <p>Cartão de débito internacional Neon</p>
+                        </div>
+                        <div class="item">
+                            <strong>Neon Mais</strong>
+                            <p>4 saques grátis para quem compra com a Neon</p>
+                        </div>
+                        <div class="item">
+                            <strong>Investimentos</strong>
+                            <p>A evolução da poupança</p>
+                        </div>
+                        <div class="item">
+                            <strong>Empréstimo pessoal</strong>
+                            <p>Faça uma simulação de empréstimo pessoal</p>
+                        </div>
+                    </div>
                     <ul>
-                        <li><a>Produtos Neon</a></li>
+                        <li class="menuProdutosNeon"><a>Produtos Neon</a></li>
                         <li><a>Conta digital PJ</a></li>
                         <li><a>Conta digital PJ</a></li>
                         <li><a>Blog</a></li>
@@ -97,10 +119,18 @@
 
         <section class="card-neon">
             <div class="container">
-                <div class="left" >
+                <div class="left">
                     <div class="ilustra-mockup">
-                        <img src="img/circle-mockup.svg" class="circle" data-aos="fade-left"/>
-                        <img src="img/mockup.svg" class="mockup"  data-aos="flip-right"/>
+                        <img
+                            src="img/circle-mockup.svg"
+                            class="circle"
+                            data-aos="fade-left"
+                        />
+                        <img
+                            src="img/mockup.svg"
+                            class="mockup"
+                            data-aos="flip-right"
+                        />
                     </div>
                     <div class="text" data-aos="fade-up">
                         <div class="icon">
@@ -360,9 +390,21 @@
                     <button class="btn-primary">Abra sua conta digital</button>
                 </div>
                 <div class="image">
-                    <img src="img/mockup-01.svg" data-aos="fade-up" class="mockup-01" />
-                    <img src="img/mockup-02.png" data-aos="fade-down" class="mockup-02" />
-                    <img src="img/circle-conta-digital.svg" data-aos="zoom-in" class="circle" />
+                    <img
+                        src="img/mockup-01.svg"
+                        data-aos="fade-up"
+                        class="mockup-01"
+                    />
+                    <img
+                        src="img/mockup-02.png"
+                        data-aos="fade-down"
+                        class="mockup-02"
+                    />
+                    <img
+                        src="img/circle-conta-digital.svg"
+                        data-aos="zoom-in"
+                        class="circle"
+                    />
                 </div>
             </div>
         </section>
@@ -499,6 +541,7 @@
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/script.js"></script>
 
         <script>
             var swiper = new Swiper(".slide-depoimentos", {
@@ -525,8 +568,8 @@
             });
 
             AOS.init({
-                duration: 1000, 
-                once : true
+                duration: 1000,
+                once: true,
             });
         </script>
     </body>
